@@ -3,6 +3,7 @@ import { View, Text, TextInput, Button } from 'react-native';
 import News from './News';
 import Counter from './Counter';
 // import NewsItem from './NewsItem';
+import Footer from './Footer';
 
 
 export default class App extends Component {
@@ -48,6 +49,7 @@ export default class App extends Component {
         {/* <News news={news} /> */}
 
         <Counter/>
+        <Footer/>
       </View>
     );
   }
