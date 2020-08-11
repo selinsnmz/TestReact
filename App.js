@@ -25,7 +25,7 @@ export default class App extends Component {
       <View >
         <Text> APPXCKVÇXÖCVMDKDKDKKDKQQQQQQQ </Text>
         
-        <News news={news}/>
+        <News news={news} />
       </View>
     );
   }

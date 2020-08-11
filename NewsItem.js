@@ -9,6 +9,12 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 class NewsItem extends Component{
+
+    constructor(){
+        super();
+        console.log("hi");
+    }
+
     render(){
         // console.log(this.props);
         const {title, description } = this.props; //2. kullanım şekli
@@ -19,6 +25,7 @@ class NewsItem extends Component{
 
                 <Text>{title}</Text>
                 <Text>{description}</Text>
+                
                  
             </View>
         );
